@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="author" content="Jumapili A.D. Ikuseghan - 950616048" />
+		<meta name="description" content="Programming 109 - Class Project 4" />
+		<meta name="editor" content="DreamWeaver CS6" />
+		<title>Check Age</title>
+		<script type="text/javascript">
+			var age = prompt("Your age?", "") || "";
+		</script>
+	</head>
+	<body>
+		<script type="text/javascript">
+        	if (age >= 65) {
+            	document.write("<h1>You are old enough to drive, vote and retire!</h1>");
+        	} else if (age >= 18) {
+            	document.write("<h1>You are old enough to drive and vote!</h1>");
+			} else if (age >=  16) {
+            	document.write("<h1>You are old enough to drive!</h1>");
+        	} else {
+            	document.write("<h1>You can't do a damn thing.</h1>");
+        	}
+		</script>
+	</body>
+</html>
